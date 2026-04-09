@@ -13,7 +13,7 @@ from playwright.sync_api import sync_playwright
 """
 DEFAULT_BASE_URL = (
     "https://viewer.impress.co.jp/viewer.html"
-    "?group_name=155d3206_69cce13a80ab5&pdf=p502340all&page=1"
+    "?group_name=155d3206_69cce13a80ab5&pdf=p502340all"
 ) # 画像を取得したいURLのデフォルト値
 DEFAULT_OUTDIR = r"C:\jpegs" # JPEGを保存するディレクトリのデフォルト値
 DEFAULT_EDGE_EXE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" # Edgeブラウザの実行ファイルパス

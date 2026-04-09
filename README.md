@@ -3,7 +3,7 @@
 `dl_impress` is a Python tool to download page images distributed as `data:image`
 from the Impress Viewer and convert them into a **lossless PDF**.
 
-The purpose of this program is to convert legally purchased Impress e-book data
+The purpose of this program is to convert legally purchased e-book data from [impress books](https://book.impress.co.jp/)
 into PDF format for offline viewing in network-restricted environments.
 
 ---

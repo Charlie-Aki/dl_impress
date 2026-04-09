@@ -16,7 +16,7 @@ from modules.pdf_maker import make_pdf_from_jpegs
 """
 DEFAULT_BASE_URL = (
     "https://viewer.impress.co.jp/viewer.html"
-    "?group_name=155d3206_69cce13a80ab5&pdf=p502340all&page=1"
+    "?group_name=155d3206_69cce13a80ab5&pdf=p502340all"
 )
 DEFAULT_OUTDIR = r"C:\jpegs"
 DEFAULT_EDGE_EXE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
