@@ -18,8 +18,6 @@ DEFAULT_BASE_URL = (
 DEFAULT_OUTDIR = r"C:\jpegs" # JPEGを保存するディレクトリのデフォルト値
 DEFAULT_EDGE_EXE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" # Edgeブラウザの実行ファイルパス
 
-NO_NEW_LIMIT = 10 #10回画像が取得できなかったらこれ以上ページがないと判定する。
-
 
 def ensure_dir(path: str):
     os.makedirs(path, exist_ok=True)
@@ -34,7 +32,7 @@ def download_jpegs_from_data_image(
     outdir: str,
     edge_exe: str,
     wait_after_move: float = 0.4,
-    no_new_limit: int = NO_NEW_LIMIT,
+    no_new_limit: int = 10, #この回数画像が取得できなかったらこれ以上ページがないと判定する。
     headless: bool = True,
     next_button_css: str = "div.viewer_next.slick-arrow",
     viewer_css: str = "#ipc_viewer_wrap",

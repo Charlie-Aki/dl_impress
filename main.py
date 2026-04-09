@@ -37,7 +37,7 @@ def parse_args():
     parser.add_argument("--edge-exe", default=DEFAULT_EDGE_EXE)
     parser.add_argument("--output-pdf", default=DEFAULT_OUTPUT_PDF)
 
-    parser.add_argument("--no-new-limit", type=int, default=20)
+    parser.add_argument("--no-new-limit", type=int, default=10)
     parser.add_argument("--wait-after-move", type=float, default=0.4)
     parser.add_argument("--headed", action="store_true")
 
