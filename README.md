@@ -51,7 +51,6 @@ pip install -r requirements.txt
 
 > Note  
 > This script launches the existing `msedge.exe` directly.  
-> `playwright install chromium` is **not required**.
 
 ---
 
@@ -67,8 +66,6 @@ dl_impress/
    ├─ jpeg_downloader.py
    └─ pdf_maker.py
 ```
-
-`__init__.py` is intentionally empty and only marks the directory as a Python package.
 
 ---
 
@@ -90,12 +87,12 @@ This will:
 ### Example output
 
 ```
-C:\jpegs
-└─ run_20260409_153012
+C:\jpegs\
+└─ run_20260409_153012/
    ├─ page_001_20260409_153012.jpg
    ├─ page_002_20260409_153012.jpg
    └─ ...
-C:\jpegs
+C:\jpegs\
 └─ book_20260409_153012.pdf
 ```
 
